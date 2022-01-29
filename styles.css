@@ -1,0 +1,49 @@
+body{
+    background-color: #F2FFE9;
+    align-content: center;
+    font-family: 'Shadows Into Light', cursive;
+    
+}
+h1{
+    color: #DB6B97;
+}
+
+.top-main-container{
+    align-content: center;
+    margin-top: 20%;
+}
+
+.top-main-container h1{
+    display: relative;
+    text-align: center;
+}
+
+.maya-profile{
+    position: relative;
+    margin: auto;
+    width: 50%;
+    border: solid #557C55;
+    background-color: #557C55;
+    border-radius: 25px;
+}
+.maya-profile .maya-image{
+    position: relative;
+    object-fit: contain;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+
+}
+.maya-profile .maya-angry-image{
+    position: absolute;
+    inset: 0;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    opacity: 0;
+}
+.maya-profile:hover .maya-angry-image{
+    opacity: 1;
+}
