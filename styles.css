@@ -21,10 +21,12 @@ h1{
 .maya-profile{
     position: relative;
     margin: auto;
-    width: 30%;
+    min-width: 200px;
+    width: 20%;
     border: solid #557C55;
     background-color: #557C55;
     border-radius: 25px;
+    margin-bottom: 10%;
 }
 .maya-profile .maya-image{
     position: relative;
@@ -42,8 +44,62 @@ h1{
     width: 100%;
     height: 100%;
     border-radius: 25px;
+    transition: opacity .5;
     opacity: 0;
 }
 .maya-profile:hover .maya-angry-image{
     opacity: 1;
 }
+
+.about-me-section{
+    position: relative;
+    margin: auto;
+    width: 60%;
+    min-width: 480px;
+    border: #557C55 solid 1px;
+    background-color: #EEFADD;
+    padding-bottom: 5%;
+    margin-bottom: 20%;
+}
+
+.about-me-section h3{
+    color: #DB6B97;
+    text-align: center;
+}
+
+.fun-fact{
+    display: inline-block;
+    position: relative;
+    width: 40%;
+    min-width: 200px;
+    background-color: #B7D8AC;
+    border-radius: 5%;
+    border: #557C55 solid 1px;
+    
+}
+
+.row{
+    margin-top: 3%;
+    overflow: hidden;
+}
+
+.fun-fact p{
+    color: #CF3A76;
+    text-align: center;
+    margin: 5%;
+}
+
+.middle{
+    inset: 0 30%;
+}
+
+.left{
+    left: 5%;
+}
+
+.right{
+    position: relative;
+    float: right;
+    right: 5%;
+}
+
